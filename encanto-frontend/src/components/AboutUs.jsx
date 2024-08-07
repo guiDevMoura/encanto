@@ -2,7 +2,7 @@ import './AboutUs.css'
 
 function AboutUs() {
   return (
-    <main className='aboutUs'>
+    <main className='aboutUs' id='aboutus'>
       <h1>Conheça a Encanto</h1>
     </main>
   );
