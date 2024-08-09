@@ -56,9 +56,9 @@ header nav {
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+  margin-left: 15px;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #753838aa);
   transform: scale(1.25);
 }
 
@@ -70,7 +70,8 @@ header nav {
   border: none;
   color: #4e4e4e;
   cursor: pointer;
-  padding: 1px 10px;
+  padding: 1px 1px;
+  margin-right: 30px;
 }
 
 /* Media Query para telas menores que 768px */

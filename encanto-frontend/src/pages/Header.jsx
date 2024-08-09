@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import encantoLogo from '/LOGO3.png'; 
-import './Header.css';
+import './pages_css/Header.css';
 import { HashLink } from 'react-router-hash-link';
 
 function Header() {
@@ -22,7 +22,7 @@ function Header() {
 
   return (
     <header className="header">
-      <HashLink to="/" className="logoContainer">
+      <HashLink to="#gourmet" className="logoContainer" scroll={el => scrollWithOffset(el)}>
         <img src={encantoLogo} className="logo" alt="Encanto Logo" />
       </HashLink>
       <button className="menuToggle" onClick={toggleMenu}>
